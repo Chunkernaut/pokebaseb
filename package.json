@@ -1,0 +1,13 @@
+{
+  "name": "pokemon-baseball-draft-v5-6",
+  "version": "0.5.6",
+  "private": true,
+  "description": "Fifteen-Pokemon fantasy baseball with 60-second lineup, World Series broadcast, PNG team cards",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node type-balance-test.js && node fatigue-test.js && node special-events-test.js && node smoke-test.js && node draft-bot-test.js && node v55-test.js && node v56-test.js"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
